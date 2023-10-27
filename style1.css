@@ -1,15 +1,21 @@
+body {
+    /*min-height: 100vh; add this later?*/
+    margin: 0;
+
+}
+
 .section-one {
     background: #1F2937;
     display: flex;
+    min-height: 30vh; /*This makes x% of the entire page filled with the background colour - to be adjusted later*/ 
 }
 
 .header-logo-line {
-    display: flex;
+   
 }
 
 .header-logo {
-    display: flex;
-    color:#f9faf8 ;
+    color:#f9faf8;
 }
 
 ul {
