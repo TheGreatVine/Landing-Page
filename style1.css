@@ -12,7 +12,7 @@ body {
 
 }
 
-.header-logo-line {
+.header-logo-container {
    display: flex;
    justify-content: space-between;
 
@@ -40,8 +40,14 @@ a {
     font-size: 18px;
 }
 
-.header-main-body {
+.header-main-container {
+    display: flex;
+    justify-content: space-between;
 
+}
+
+.header-main-left {
+   
 }
 
 .header-main-logo {
@@ -61,12 +67,15 @@ a {
 
 }
 
+.image-container {
+
+}
+
 .header-placeholder-image {
     color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     padding: 50px 100px;
     width: 300px;
     border: 1px solid;

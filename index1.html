@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="section-one">
-            <div class="header-logo-line">
+            <div class="header-logo-container">
                 <div class="header-logo">Header Logo</div>
                 <ul>
                     <li>
@@ -23,13 +23,19 @@
                         </li>
                 </ul>
             </div>
-            <!--we need to make an adjustment below. Either adding more classes, or moving div tags so they can be properly adjusted with flex box-->
-            <div class="header-main-body">
-                <div class="header-main-logo">This website is awesome</div>
-                <div class="header-main-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-                <button class="first-button">Sign up</button>
+            <!--progress! We have modified the body below! Added 'container' to make it more understandable. Added div tags in sections. left section and image container. This way when I make display: flex; in header-main-container, it will shif those two containers (since they are still children of the main container) and I can control how they move. To further adjust the items within those containers will be for later.-->
+            <div class="header-main-container">
+                <div class="header-main-left">
+                    <div class="header-main-logo">This website is awesome</div>
+                    <div class="header-main-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
+                    <button class="first-button">Sign up</button>
+                </div>
+                <div class="image-container">
+                    <div class="header-placeholder-image">this is a placeholder for an image</div>
+                </div>
+                
             </div>
-            <div class="header-placeholder-image">this is a placeholder for an image</div>
+            
         </div>
 
 
