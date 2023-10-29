@@ -64,9 +64,18 @@ a {
     color: #E5E7EB;
 }
 
+/*added characteristics to first-button. Border-radius for roundness to button shape. Remove border, adjusted font. Added margin and padding to shift the button slightly. providing more space around it. */
 .first-button {
     background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+    padding: 5px 30px;
 
+ 
 }
 
 .image-container {
