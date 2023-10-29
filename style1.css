@@ -177,7 +177,7 @@ Also added flex and flex basis to control the shrinking and growing of the image
     justify-content: center;
     align-items: flex-end;
     padding: 125px 250px;
-    width: 750px;
+    width: 775px;
 }
 
 .quote {
@@ -192,4 +192,56 @@ Also added flex and flex basis to control the shrinking and growing of the image
     font-size: 20px;
 }
 
+
+.section-four-container {
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    
+}
+
+.blue-box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    width: 900px;
+    min-height: 150px;
+    flex-basis: 150px;
+    flex: 1;
+    margin: 80px 150px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.call-quote {
+    display: flex;
+    padding: 0 50px;
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.call-directions {
+    display: flex;
+    padding: 0 50px;
+    color:#E5E7EB;
+}
+
+.second-button {
+    display: flex;
+    padding: 0px 70px;
+}
+
+.sign-up-button {
+    display: flex;
+    justify-content: center;
+    padding: 5px 30px;
+    border: 2px #E5E7EB solid;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
 
