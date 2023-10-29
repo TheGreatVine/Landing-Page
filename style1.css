@@ -176,14 +176,14 @@ Also added flex and flex basis to control the shrinking and growing of the image
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    padding: 0 250px;
+    padding: 125px 250px;
     width: 750px;
 }
 
 .quote {
-    font-size: 35px;
-    font-style: italic;
     font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
     color: #1F2937;
 }
 
