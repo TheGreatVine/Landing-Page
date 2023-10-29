@@ -102,7 +102,7 @@ Also added flex and flex basis to control the shrinking and growing of the image
 
 
 .section-two-container {
-    min-height: 30vh;
+    min-height: 35vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,4 +157,9 @@ Also added flex and flex basis to control the shrinking and growing of the image
     padding-top: 5px;
     color: grey;
     font-size: 17px;
+}
+
+.section-three-container {
+    min-height: 30vh;
+    background-color: #E5E7EB;
 }
