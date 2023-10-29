@@ -98,6 +98,55 @@ Also added flex and flex basis to control the shrinking and growing of the image
     background-color: grey ;
 }
 
+
 .section-two-container {
     min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-line-container {
+    
+}
+
+.first-line {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+
+.image-container-twopointone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.image-container-twopointtwo {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    
+
+}
+.image {
+    display: flex;   
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+}
+
+.image-text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.image-text {
+    display: flex;
+    width: 150px;
+
 }
