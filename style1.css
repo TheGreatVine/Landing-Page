@@ -42,11 +42,16 @@ a {
 
 .header-main-container {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     padding: 100px 150px;
+    min-height: 150px;
+    min-width: 450px;
 
 }
 
+.header-main-left {
+   justify-content: center;
+}
 
 
 .header-main-logo {
@@ -80,6 +85,7 @@ a {
 
 .image-container {
     display: flex;
+    justify-content: center;
     width: 100%;
 
 }
@@ -93,10 +99,8 @@ Also added flex and flex basis to control the shrinking and growing of the image
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 150px;
+    min-height: 250px;
     min-width: 450px;
-    flex: 1;
-    flex-basis: 450px;
     background-color: grey ;
 }
 
@@ -162,4 +166,30 @@ Also added flex and flex basis to control the shrinking and growing of the image
 .section-three-container {
     min-height: 30vh;
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 250px;
+    width: 750px;
+}
+
+.quote {
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
