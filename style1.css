@@ -7,7 +7,7 @@ body {
 
 .section-one {
     background: #1F2937;
-    min-height: 30vh; /*This makes x% of the entire page filled with the background colour - to be adjusted later*/ 
+    min-height: 23vh; /*This makes x% of the entire page filled with the background colour - to be adjusted later*/ 
     /*I've removed display:flex; here which allows the header-logo-line to move as needed. */
 
 }
@@ -106,7 +106,7 @@ Also added flex and flex basis to control the shrinking and growing of the image
 
 
 .section-two-container {
-    min-height: 35vh;
+    min-height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,7 +164,7 @@ Also added flex and flex basis to control the shrinking and growing of the image
 }
 
 .section-three-container {
-    min-height: 30vh;
+    min-height: 20vh;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -246,7 +246,7 @@ Also added flex and flex basis to control the shrinking and growing of the image
 }
 
 .copyright-container {
-    min-height: 6vh;
+    min-height: 4vh;
     display: flex;
     justify-content: center;
     align-items: center;
