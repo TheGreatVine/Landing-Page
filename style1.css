@@ -43,6 +43,7 @@ a {
 .header-main-container {
     display: flex;
     justify-content: space-between;
+    padding: 100px 150px;
 
 }
 
@@ -64,21 +65,31 @@ a {
 }
 
 .first-button {
+    background-color: #3882f6;
 
 }
 
 .image-container {
+    display: flex;
+    width: 100%;
 
 }
 
+
+/*added min-height and min-width. This kept the image at a consistent size regardless of scaling the page.
+
+Also added flex and flex basis to control the shrinking and growing of the image container.*/
 .header-placeholder-image {
     color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 100px;
-    width: 300px;
-    border: 1px solid;
+    min-height: 200px;
+    min-width: 500px;
+    flex: 1;
+    flex-basis: 500px;
+    background-color: grey ;
+
 }
 
 
