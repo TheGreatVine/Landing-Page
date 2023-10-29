@@ -245,3 +245,12 @@ Also added flex and flex basis to control the shrinking and growing of the image
     color: #f9faf8;
 }
 
+.copyright-container {
+    min-height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
