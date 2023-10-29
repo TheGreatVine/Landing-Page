@@ -53,6 +53,7 @@ a {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    padding-right: 30px;
     
     
 }
@@ -60,6 +61,7 @@ a {
 .header-main-text {
     font-size: 18px;
     color: #E5E7EB;
+    padding-right: 30px;
 }
 
 /*added characteristics to first-button. Border-radius for roundness to button shape. Remove border, adjusted font. Added margin and padding to shift the button slightly. providing more space around it. */
@@ -91,10 +93,10 @@ Also added flex and flex basis to control the shrinking and growing of the image
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 200px;
-    min-width: 500px;
+    min-height: 150px;
+    min-width: 450px;
     flex: 1;
-    flex-basis: 500px;
+    flex-basis: 450px;
     background-color: grey ;
 }
 
