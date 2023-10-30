@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     /*min-height: 100vh; add this later?*/
     margin: 0;
 
@@ -7,7 +7,7 @@ body {
 
 .section-one {
     background: #1F2937;
-    min-height: 23vh; /*This makes x% of the entire page filled with the background colour - to be adjusted later*/ 
+     /*This makes x% of the entire page filled with the background colour - to be adjusted later*/ 
     /*I've removed display:flex; here which allows the header-logo-line to move as needed. */
 
 }
@@ -106,7 +106,6 @@ Also added flex and flex basis to control the shrinking and growing of the image
 
 
 .section-two-container {
-    min-height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,6 +151,7 @@ Also added flex and flex basis to control the shrinking and growing of the image
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    margin-bottom: 80px;
 }
 
 .image-text {
@@ -164,7 +164,6 @@ Also added flex and flex basis to control the shrinking and growing of the image
 }
 
 .section-three-container {
-    min-height: 20vh;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -194,7 +193,6 @@ Also added flex and flex basis to control the shrinking and growing of the image
 
 
 .section-four-container {
-    min-height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,8 +244,8 @@ Also added flex and flex basis to control the shrinking and growing of the image
 }
 
 .copyright-container {
-    min-height: 4vh;
     display: flex;
+    padding: 35px 20px;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
